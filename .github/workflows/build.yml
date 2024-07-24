@@ -19,7 +19,7 @@ on:
           run: npm install
 
         --name: Prisma Client Generate
-          run: db:generate
+          run: npm run db:generate
 
         -name: Run Build
           run: npm run build
