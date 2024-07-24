@@ -18,5 +18,8 @@ on:
         -name: Install dependencies
           run: npm install
 
+        --name: Prisma Client Generate
+          run: db:generate
+
         -name: Run Build
           run: npm run build
